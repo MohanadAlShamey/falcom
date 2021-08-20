@@ -18,5 +18,9 @@ Route::get('/', function () {
 });
 
 Auth::routes(['register'=>false]);
+Route::prefix('dashboard')->group(function(){
+    Route::resource('/members', App\Http\Controllers\Dash\MemberController::class);
+    Route::get('/member/getAllMembers', [App\Http\Controllers\Dash\MemberController::class,'getAllMembers']);
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+});
+
