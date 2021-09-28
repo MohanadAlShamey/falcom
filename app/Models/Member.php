@@ -9,4 +9,9 @@ class Member extends Model
 {
     use HasFactory;
 protected $guarded=[];
+protected $with=['country'];
+
+public function country(){
+    return $this->belongsTo(Country::class);
+}
 }

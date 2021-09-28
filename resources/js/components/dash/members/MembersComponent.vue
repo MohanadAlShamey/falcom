@@ -13,6 +13,7 @@
                             <tr>
                                 <td>الاسم</td>
                                 <td>البريد الإلكتروني</td>
+                                <td>الدولة</td>
                                 <td>رقم الهاتف</td>
                                 <td>الصفحة</td>
                                 <td>التحكم</td>
@@ -20,6 +21,7 @@
                             <tr v-for="member in members.data">
                                 <td>{{ member.full_name }}</td>
                                 <td>{{ member.email }}</td>
+                                <td>{{ member.country['country_name_ar'] }}</td>
                                 <td>{{ member.phone }}</td>
                                 <td>{{ member.page }}</td>
                                 <td></td>

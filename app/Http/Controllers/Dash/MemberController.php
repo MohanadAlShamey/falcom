@@ -62,6 +62,6 @@ class MemberController extends Controller
             $query->orWhere('email','like','%'.$q.'%');
             $query->orWhere('phone','like','%'.$q.'%');
             $query->orWhere('page','like','%'.$q.'%');
-        })->latest()->paginate(15);
+        })->with('country')->latest()->paginate(15);
     }
 }

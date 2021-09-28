@@ -1,0 +1,1343 @@
+
+
+#register-area {
+    background: #e9e9e9;
+    padding: 45px 20px 0;
+    margin-top: 80px;
+}
+
+#register-area  h3 {
+    font-size: 36px;
+    color: #198e4b;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+#register-area > span {
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 10px 0 30px;
+    text-align: center;
+    width: 100%;
+}
+
+#register-area input {
+    color: #949393;
+    font-size: 20px;
+    border-bottom: 2px solid #d6d6d6;
+    padding: 10px 10px;
+    font-size: 19px;
+    font-weight: bold;
+    background: #fff;
+}
+
+#register-area .btn-success {
+    background-image: linear-gradient(to bottom,#46b389 0,#16a059 100%);
+    background-repeat: repeat-x;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 25px;
+}
+
+#register-area .btn-success:hover {
+    background-image: linear-gradient(to bottom,#16a059 0,#16a059 100%);
+}
+
+#register-area h4 {
+    display: none;
+}
+
+#register-area span.note {
+    font-size: 15px;
+    color: #949494;
+    text-align: center;
+    float: left;
+    width: 100%;
+    font-weight: normal;
+}
+
+.lang-es #submitForm span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.banner12 {
+    padding: 100px 0 50px;
+}
+
+.banner12 img{
+    float: right;
+    max-width: 100%;
+}
+
+.banner12 h2 {
+    margin: 50px 0 40px;
+    font-size: 48px;
+    color: #2266ab;
+    float: left;
+    width: 100%;
+}
+
+.banner12 ul {
+    float: left;
+    width: 100%;
+    margin-left: -15px;
+}
+
+.banner12 ul li {
+    float: left;
+    width: 100%;
+    margin: 0 0 30px;
+    color: #343333;
+    list-style: disc;
+    font-size: 18px;
+}
+
+input#phone2 {
+    width: 25%;
+}
+
+input#phone {
+    width: 74%;
+}
+
+.logo {
+    float: left;
+}
+
+
+
+
+.banner2new {
+    padding: 90px 0 250px;
+}
+
+.banner2new .position{
+    position: relative;
+}
+
+.banner2new  p {
+    font-size: 20px;
+    line-height: 1.7;
+    padding-top: 30px;
+}
+
+.banner2new img {
+    max-width: 100%;
+}
+
+.banner2new img.chart2{
+    position: absolute;
+    top: 300px;
+    right: -140px;
+    z-index: 10;
+}
+
+
+body * {
+    font-family: 'Roboto' !important;
+}
+
+
+.cta-btn-warning{
+    color: #010101;
+    border: 1px solid #fff900;
+    background-color: #fbab1d !important;
+    box-shadow: 0px 0px 1px #8c6300;
+    padding: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.banner1 #submitForm {
+    box-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#submitForm span{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#submitForm i {
+    margin: 5px 0px 0 5px;
+    display: inline-block;
+}
+
+.cta-btn-warning:hover{
+    background-color: #da9212 !important;
+    border-color: #7b7913;
+    color:#000;
+    text-decoration: none;
+}
+
+/*#region header */
+.header {
+    background: #000;
+    padding: 33px 0;
+}
+
+.header .logo img {
+    max-width: 100%;
+    margin: 16px 0 0;
+}
+
+.apps-container, .apps-container .text{
+    float: left;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+}
+
+.apps-container
+{
+    max-width: 350px;
+    float: right;
+}
+
+.apps-container .icons {
+    float: left;
+    width: 29%;
+    margin: 0 2%;
+}
+
+.apps-container .icons img
+{
+    border-radius: 5px;
+    float: left;
+    width: 100%;
+    border: 1px solid #bdbdbd;
+    max-width: 100px;
+}
+
+.apps-container .text {
+    float: left;
+    width: 100%;
+    margin: 0 0 5px;
+}
+/*#endregion */
+
+
+
+/*#region Basic */
+
+div.content {
+    width: 1300px;
+}
+
+.btn-success {
+    background-color: #02a629 !important;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn-success:hover {
+    background-color: #117437 !important;
+}
+
+/*#endregion */
+
+
+
+
+/*#region Form */
+
+#register .col-6-sp2 {
+    margin: 0;
+    width: 100%;
+}
+
+#register .col-6-sp2:nth-child(2) {
+    margin: 20px 0 0;
+}
+
+.register > span {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0 0;
+    float: left;
+    position: relative;
+    z-index: 20;
+}
+
+.register > .col-12 {
+    margin: -10px 0 0;
+}
+
+.register h4 {
+    margin: 20px 0 0;
+}
+
+.error {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    background-color: #9a211e;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+/*#endregion */
+
+/*#region Banner */
+
+.banner1 {
+    background: rgba(0, 0, 0, 0) url("https://lp.trade.com/campaign/trade-bitcoin/images/new/bg-1.jpg") repeat scroll 0 0 / cover ;
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0 140px;
+}
+
+.banner1 h1, .banner1 p
+{
+    position: relative;
+    z-index: 100;
+}
+
+.banner1 h1
+{
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+    float: left;
+    margin-top: 70px;
+}
+
+.banner1 .v2 h1
+{
+    text-align: center;
+    font-size: 51px;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.banner1 .v2 p
+{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 10%;
+    width: 80%;
+}
+
+.banner1 .v2 p.orange {
+    color: #fbab1d;
+    width: 34%;
+    margin: 40px 33% 0;
+    font-size: 18px;
+}
+
+.banner1 p, .banner2 p
+{
+    font-size: 27px;
+    color: #fff;
+    float: left;
+}
+
+.banner1  .live-price {
+    background: rgba(0, 0, 0, 0) url('https://lp.trade.com/campaign/trade-bitcoin/images/new/live-price.png') no-repeat scroll 0 0;
+    width: 360px;
+    height: 220px;
+    float: left;
+    box-sizing: border-box;
+    padding: 25px 0 30px 40px;
+    margin: 20px 0 30px;
+}
+
+.banner1 .live-price .grow span {
+    color: #fff;
+    float: left;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 25px;
+    width: auto;
+}
+
+.banner1  .live-price h2
+{
+    font-size: 72px;
+    color: #fff;
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+
+.banner1 .live-price h2 i {
+    font-size: 60px;
+    width: auto;
+    font-style: normal;
+    margin: 0 3px 0 0;
+}
+
+.banner1  .live-price b
+{
+    font-size: 36px;
+    color: #198e4b;
+    float: left;
+    margin: 0;
+}
+
+.banner1  .live-price span
+{
+    font-size: 27px;
+    color: #fff;
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+
+.banner1 .features  {
+    margin-bottom: 20px;
+}
+
+.banner1 .features img {
+    float: left;
+    margin-right: 3px;
+}
+
+.banner1 .down-arrow-area
+{
+    text-align: center;
+}
+
+.banner1 .down-arrow
+{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    width: 37px;
+    height: 37px;
+    background-size: 37px 37px;
+    background-image: url('https://lp.trade.com/campaign/trade-bitcoin/images/new/down-arrow.png');
+    animation: scroll_down 1.2s infinite;
+    -webkit-animation: scroll_down 1.2s infinite;
+    -moz-animation: scroll_down 1.2s infinite;
+    -o-animation: scroll_down 1.2s infinite;
+}
+
+
+@-webkit-keyframes scroll_down {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-30px)
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(0)
+    }
+}
+
+@-moz-keyframes scroll_down {
+    0% {
+        opacity: 0;
+        -moz-transform: translateY(-30px)
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0;
+        -moz-transform: translateY(0)
+    }
+}
+
+@-o-keyframes scroll_down {
+    0% {
+        opacity: 0;
+        -o-transform: translateY(-30px)
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0;
+        -o-transform: translateY(0)
+    }
+}
+
+@keyframes scroll_down {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px)
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(0)
+    }
+}
+
+.banner1 .features span {
+    float: left;
+    font-size: 22px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.banner2 p
+{
+    padding: 120px 0 270px;
+}
+
+.banner2{
+    background: rgba(0, 0, 0, 0) url("https://lp.trade.com/campaign/trade-bitcoin/images/Banner2.jpg?v=1") no-repeat scroll 0 0;
+    position: relative;
+}
+
+.banner2.Litecoin{
+    background: rgba(0, 0, 0, 0) url("https://lp.trade.com/campaign/trade-bitcoin/images/Litecoin-Banner.jpg?v=2") no-repeat scroll 0 0;
+    position: relative;
+}
+
+.banner2.Ethereum{
+    background: rgba(0, 0, 0, 0) url("https://lp.trade.com/campaign/trade-bitcoin/images/Ethereum-Banner.jpg?v=2") no-repeat scroll 0 0;
+    position: relative;
+}
+
+.banner3 {
+    min-height: 555px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+    background: rgba(240, 240, 240, 1) url("https://lp.trade.com/campaign/trade-bitcoin/images/new/b3-bg2.jpg?v=1") repeat scroll 0 bottom;
+    background-size: cover;
+}
+
+.banner3 h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 65px 0 40px;
+    text-align: center;
+    color: #198e4b;
+}
+
+.banner3 img
+{
+    margin: auto;
+    display: block;
+}
+
+.banner3 .info-area
+{
+    padding: 0 4%;
+}
+
+.banner3 .tablet img
+{
+    margin: auto;
+    display: block;
+}
+
+.banner3 .orange-btn {
+    background: #f26522;
+    border: 1px solid #000;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 5px 9px 5px;
+    float: left;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.banner3 h3 {
+    color: #000;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.banner3 p {
+    float: left;
+    color: #343333;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+.banner3 .info
+{
+    width: 100%;
+    margin: 0;
+    float: left;
+}
+
+.banner4 {
+    background: rgba(1, 34, 56, 1) url("https://lp.trade.com/campaign/trade-bitcoin/images/new/bg-2.jpg") no-repeat scroll center center;
+    padding: 0 0 40px;
+    color: #fff;
+}
+
+.banner4 h2 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0 0;
+    float: left;
+    width: 100%;
+}
+
+.banner4 span {
+    float: left;
+    font-size: 27px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.banner4 a span {
+    float: none;
+    font-size: 22px;
+    margin-bottom: 0;
+    text-align: center;
+    width: auto;
+}
+
+.banner4 li {
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+/*
+.banner4 p {
+    font-size: 21px;
+    line-height: 1.9;
+}
+
+.banner4 h3 {
+    font-size: 27px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin: 50px 0;
+    line-height: 1.5;
+}
+
+.banner4 .cta-btn-warning {
+    font-size: 23px;
+}*/
+
+.banner5 {
+    padding: 60px 0 30px;
+    background: #2266ab;
+    text-align: center;
+}
+
+.banner5 h2 {
+    color: #fff;
+    font-size: 48px;
+    margin: 0;
+
+}
+
+.banner5 span.sub-header {
+    margin: 10px 0 30px;
+    color: #fff;
+    font-size: 25px;
+    float: left;
+    width: 100%;
+}
+
+.banner5 a {
+    color: #fff;
+    font-size: 25px;
+    padding: 8px 30px 10px;
+    border: 2px #6594c4 solid;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner5 a .fa {
+    margin-left: 5px;
+}
+
+.banner5 a:hover {
+    color: #6594c4;
+    text-decoration: none;
+}
+
+/*#endregion */
+
+/*#region Body */
+
+/*#endregion */
+
+/*#region Modal box */
+
+.footer_note{
+    font-size: 18px;
+    text-align: center;
+}
+
+.modal-dialog .modal-body {
+    position: relative;
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding: 0;
+}
+
+#popup-proccess-window img {
+    margin: 80px auto 10px !important;
+}
+
+.modal-dialog {
+    min-width: 1000px;
+}
+
+.modal-content {
+    border-radius: 0 !important;
+}
+
+.modal-content .info {
+    background: #f2f2f1;
+    padding: 55px;
+    border-right: 1px solid #e1e1e1;
+}
+
+.modal-content .info h2 {
+    font-size: 25px;
+    color: #626161;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 380px;
+}
+
+.modal-content .info img {
+    display: block;
+    margin: auto;
+}
+
+.modal-content .info .feature span {
+    font-size: 18px;
+    color: #626161;
+    float: left;
+    line-height: 1.2;
+    margin: 5px 0 0 20px;
+}
+
+.modal-dialog .register
+{
+    background: #fff;
+    padding: 55px 35px;
+}
+
+.modal-dialog .register h3 {
+    font-size: 21px;
+    color: #20a833;
+    font-weight: bold;
+    margin: 0;
+}
+
+.modal-dialog .rest {
+    border-top: 1px solid #000;
+    padding: 20px 0 0;
+}
+
+.modal-dialog .rest > div{
+    padding: 0 10px;
+}
+
+.modal-dialog .rest span {
+    font-size: 10px;
+    line-height: 1;
+    color: #4c4e4d;
+    margin: 0 0 0 5px;
+    float: left;
+}
+
+.modal-dialog .rest h4{
+    color: #4c4e4d;
+    margin: 10px 0 0 5px;
+}
+
+.modal-dialog .register input[type=text],
+.modal-dialog .register input[type=tel],
+.modal-dialog .register input[type=email] {
+    padding: 10px 8px;
+    border: 1px solid #bdbcbc;
+    border-radius: 0;
+    font-size: 21px;
+    color: #949393;
+}
+
+.modal-dialog .register .btn-success {
+    padding: 5px 8px;
+}
+
+/*#endregion */
+
+/*#region Social */
+
+.social {
+    background-color: #0d2741;
+    padding: 10px 0;
+}
+
+.social .content .applications-inner {
+    margin: 10px 0 0;
+}
+
+.social b {
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 8px;
+    float: left;
+    margin-right: 30px;
+}
+
+.social a {
+    text-decoration: none;
+    float: left;
+}
+
+.social .social-icons a {
+    text-decoration: none;
+    float: left;
+    margin-right: 15px;
+}
+
+.social .applications-inner #iphone-app-box img {
+    max-height: 50px;
+}
+
+.social .applications-inner #android-app-box img {
+    max-height: 60px;
+    margin-top: -10px;
+}
+
+/*#endregion */
+
+/*#region Terms and conditions */
+
+.terms-conditions {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0 50px;
+}
+
+.terms-conditions a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.terms-conditions a:hover {
+    text-decoration: none;
+}
+
+/*#endregion */
+
+/*#region Arabic */
+
+.rtl .header .pull-right {
+    float: left;
+}
+
+/*#endregion */
+
+/* arabic */
+.rtl .banner3 .col-6{
+    float: left;
+}
+
+.rtl .banner3 .info {
+    margin-right: 10px;
+    float: right;
+}
+
+.rtl .banner3 .info *{
+    float: right;
+}
+
+.rtl .banner3 .orange-btn {
+    float: right;
+}
+/********************************************************/
+
+.planet {
+    position: absolute;
+    margin: 0 !important;
+}
+
+#coin-1 {
+    top: 14%;
+    left: 13%;
+}
+
+#coin-2 {
+    top: 4%;
+    right: 15%;
+}
+
+#coin-3 {
+    bottom: 6%;
+    right: 9%;
+}
+
+.modal-content .register h4 {
+    font-size: 17px;
+    color: #333;
+    font-weight: normal;
+    margin: 25px 0 0;
+}
+
+/********************************************************/
+.footer-apps-container  .apps-container {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .banner3 {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+
+    div.content {
+        width: 100%;
+        padding: 0 20px;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    #register-area {
+        width: 100%;
+    }
+
+    .banner1 {
+        padding: 20px 0 10px;
+    }
+
+    .banner1 .v2 h1 {
+        font-size: 40px;
+        margin: 10px 5% 0;
+        text-align: center;
+        width: 90%;
+    }
+
+    .banner1 .v2 p {
+        font-size: 22px;
+        font-weight: normal;
+        margin: 20px 5%;
+        text-align: center;
+        width: 90%;
+    }
+
+    /*#region Form */
+
+    .modal-dialog {
+        min-width: auto;
+    }
+
+    .modal-content .register {
+        float: right;
+        width: 100%;
+    }
+
+    .modal-dialog .mobile-img {
+        display: none;
+    }
+
+    .banner1 h1
+    {
+        font-size: 35px;
+    }
+
+    .banner1 .version2 .planet ,
+    .banner1 .version3 .planet
+    {
+        display: none;
+    }
+
+    #coin-1 img{
+        width: 120px;
+    }
+
+    .banner1 > .content > div {
+        margin: 10px 0 20px;
+    }
+
+    .banner2{
+        background: rgba(0, 0, 0, 0) url("https://lp.trade.com/campaign/trade-bitcoin/images/Banner2-1100.jpg?v=1") repeat scroll 0 bottom;
+        background-size: cover;
+        min-height: 0;
+    }
+
+    .banner2 p{
+        padding: 80px 0;
+    }
+
+    .banner2 .pull-right {
+        float: left !important;
+    }
+
+    div.banner3{
+        background: #f0f0f0 none repeat scroll 0 0;
+    }
+
+    .banner3 img
+    {
+
+    }
+
+    .banner3 .col-6{
+        width: 100%;
+    }
+
+    .banner4 h2 {
+        font-size: 35px;
+    }
+    /*#endregion */
+
+    div.modal-dialog {
+        margin: 30px auto;
+        width: 90%;
+    }
+
+    .modal-content .info {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .modal-content .info .feature{
+        width: 33%;
+    }
+
+    .modal-content .info .feature .col-3,
+    .modal-content .info .feature .col-9 {
+        width: 100%;
+    }
+
+    .modal-content .info .feature .col-3
+    {
+        min-height: 80px;
+    }
+
+    .modal-content .info .feature span{
+        text-align: center;
+    }
+
+    .modal-content .info .feature span br{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .logo {
+        float: left;
+        margin: 20px 0 0;
+    }
+
+    .banner1 h1 {
+        margin-top: 30px;
+    }
+
+    div.banner1 .col-7,
+    div.banner1 .col-5,
+    div.banner12 .col-6
+    {
+        width: 100%;
+    }
+
+    .banner3 p {
+        float: none;
+    }
+
+    .banner2new {
+        padding: 0 0 20px;
+    }
+
+    .banner2new img {
+        display: none;
+    }
+
+    .banner3
+    {
+        min-height: 0;
+    }
+
+    .banner3 .tablet img {
+        display: block;
+        margin: auto;
+        float: left;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .banner3 .info-area {
+        width: 100%;
+        padding: 0;
+    }
+
+    .banner2new img.chart2 {
+        display: block;
+        float: left;
+        position: relative;
+        max-width: 100%;
+        top: auto;
+        left: auto;
+        right: auto;
+    }
+
+    .banner2new .col-6
+    {
+        width: 100%;
+    }
+
+    #register-area
+    {
+        width: 100%;
+    }
+
+    .banner1 .col-6
+    {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .banner2 .pull-right
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .header {
+        padding: 13px 0 0;
+    }
+    .header .logo {
+        margin: 0 0 23px;
+    }
+    .banner1 .col-11{
+        width: 100%;
+    }
+
+    .planet img{
+        display: none;
+    }
+
+    .banner4 .col-7,
+    .banner4 .col-5
+    {
+        width: 100%;
+    }
+
+    .banner2 p {
+        font-size: 20px;
+        padding: 20px 0;
+        line-height: 1.6;
+    }
+
+    .banner3 h2 {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 20px 0 0;
+    }
+
+    .banner4 h2 {
+        margin: 20px 0;
+        font-size: 22px;
+        line-height: 1.6;
+    }
+
+    .banner4 h3 {
+        font-size: 23px;
+        line-height: 1.5;
+        margin: 30px 0 40px;
+    }
+
+    .banner1 .v2 p.orange {
+        color: #fbab1d;
+        font-size: 18px;
+        margin: 40px 10% 0;
+        width: 80%;
+    }
+
+    .banner12 h2 {
+        font-size: 30px;
+        margin: 30px 0 20px;
+    }
+
+    .banner5 {
+        padding: 20px 0;
+    }
+
+    .banner5 h2 {
+        font-size: 30px;
+    }
+
+    .banner5 span.sub-header {
+        font-size: 23px;
+        margin: 30px 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .header .apps-container {
+        display: none;
+    }
+
+    .footer-apps-container .apps-container {
+        display: block;
+    }
+
+    .header .col-5{
+        width: 100%;
+    }
+
+    .header .logo img {
+        display: block;
+        margin: 10px auto 0;
+        max-width: 100%;
+    }
+
+    .header .logo{
+        margin: 0 0 30px;
+    }
+
+    .banner1{
+        background: rgba(0, 0, 0, 0) url("https://lp.trade.com/campaign/trade-bitcoin/images/Banner1-550.jpg") repeat scroll 0 bottom;
+        background-size: cover;
+    }
+
+    #register-area {
+        margin-top: 20px;
+    }
+
+    .banner1 .v2 h1 {
+        font-size: 35px;
+    }
+
+    .banner2 {
+        background: rgba(0, 0, 0, 0) url("https://lp.trade.com/campaign/trade-bitcoin/images/Banner2-550.jpg") repeat scroll 0 bottom;
+        background-size: cover;
+    }
+
+    .cta-btn-warning {
+        float: left;
+        font-size: 20px;
+        padding: 10px 15px;
+        width: 100%;
+    }
+
+    .apps-container {
+        max-width: 100%;
+    }
+
+    .modal-content .info .feature{
+        width: 100%;
+    }
+
+    div.modal-content .info .feature > div > div:nth-child(1){
+        min-height: auto;
+        width: 25%;
+    }
+    div.modal-content .info .feature > div > div:nth-child(2){
+        width: 75%;
+        text-align: left;
+    }
+
+    div.modal-dialog .register {
+        padding: 20px 25px;
+    }
+
+    .modal-dialog .rest > div {
+        width: 100%;
+        margin: 0 0 15px;
+    }
+
+    .modal-dialog .rest > div > div{
+        width: auto;
+    }
+
+    .modal-dialog .rest  span,
+    .modal-dialog .rest  h4{
+        margin: 0 0 0 15px;
+    }
+
+
+    div.content {
+        padding: 0 10px;
+    }
+
+    .banner1 .features div {
+        margin-bottom: 20px;
+    }
+
+    .banner1 .features span {
+        font-size: 20px;
+        width: 85%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    div.banner1 .live-price {
+        width: 100%;
+        padding: 20px 0 20px 20px;
+    }
+
+    div.banner1 .live-price h2 {
+        font-size: 45px;
+    }
+
+    div.banner1 .live-price h2 i {
+        font-size: 40px;
+    }
+
+    div.banner1 .live-price b {
+        font-size: 35px;
+    }
+
+    div.banner1 .live-price span {
+        font-size: 30px;
+    }
+
+    .banner5 a {
+        padding: 10px 20px;
+        width: 100%;
+        float: left;
+    }
+}

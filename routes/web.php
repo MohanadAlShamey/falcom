@@ -14,11 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return redirect('login');
+    $countries=\App\Models\Country::OrderBy('phone_code')->get();
+    return view('welcome',compact('countries'));
 });
 
-Auth::routes(['register'=>false]);
+Route::post('registerPage',[\App\Http\Controllers\Site\RegController::class,'store'])->name('register.trade');
+
+
 Route::prefix('dashboard')->group(function(){
+    Auth::routes(['register'=>false]);
+    Route::get('/',function(){
+        return redirect()->route('login');
+    });
     Route::resource('/members', App\Http\Controllers\Dash\MemberController::class);
     Route::get('/member/getAllMembers', [App\Http\Controllers\Dash\MemberController::class,'getAllMembers']);
 
